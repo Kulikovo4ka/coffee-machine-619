@@ -60,3 +60,8 @@ font-family: 'Roboto', sans-serif;*/
   min-height: 100px;
   box-sizing: border-box;
 }
+
+.money img {
+  max-width: 200px;
+  cursor: pointer;
+}

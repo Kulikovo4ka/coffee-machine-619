@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
@@ -60,7 +59,12 @@
            </div>
          </div>
        </div>
-     </div> 
+     </div>
+     <div class="money">
+       <img src="img/50rub.jpg" data-cost="50" alt="">
+       <img src="img/100rub.jpg" data-cost="100" alt="">
+       <img src="img/500rub.jpg" data-cost="500" alt="">
+     </div>
     <!-- Optional JavaScript -->
     <script src="lesson.js"></script>
     <script src="script.js"></script>
