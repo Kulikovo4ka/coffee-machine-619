@@ -45,7 +45,7 @@
            </div>
            <div class="col-6">
              <div class="input-group mb-3">
-                <input type="text" class="form-control balance" placeholder="Внесите денюжки">
+                <input type="text" class="form-control balance" placeholder="Внесите денюжки" readonly>
                 <div class="input-group-append">
                   <span class="input-group-text" id="basic-addon2">&#8381;</span>
                 </div>

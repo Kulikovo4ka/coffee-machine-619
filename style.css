@@ -49,6 +49,12 @@ font-family: 'Roboto', sans-serif;*/
   width: 100%;
 }
 
+.bill-container {
+  background-color: red;
+  min-height: 220px;
+ /*z-index: ;*/
+}
+
 .cup img {
   display: none;
   opacity: 0;

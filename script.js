@@ -26,7 +26,7 @@ function cookCoffee(name, price, elem) {
     
     startCooking(name, coffeeSrc);
   } else {
-    alert("Недостаточно средств");
+    alert("А платить кто будет???");
     balance.style.backgroundColor = "rgb(255, 50, 50)";
   }
 }
@@ -49,7 +49,7 @@ function startCooking(name, src) {
   t++;
   cup.style.opacity = t + "%";
   /*progressBar.style.width = t + "%";*/
-  changeProgressPercent(t);//создана специальная функция для упрвления элементом прогрессбар, можно вызывать в любой части кода
+  changeProgressPercent(t);//создана специальная функция для управления элементом прогрессбар, можно вызывать в любой части кода
   console.log(t);
   if (t == 100) {
     state = "ready";
